@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fahad Farid — Work</title>
+<title>Fahad Farid — Publications</title>
 <meta name="description" content="Fahad Farid builds and monitors production machine learning systems in credit and fraud risk at American Express.">
 <meta property="og:title" content="Fahad Farid">
 <meta property="og:description" content="Data scientist. Builds production ML systems, then watches them for drift.">
@@ -103,76 +103,46 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding:20px clamp(20px,
     <span class="d" style="background:#5B4A44"></span>
     <span class="d" style="background:#5C5230"></span>
     <span class="d" style="background:#33503F"></span>
-    <span class="path">fahad:~/work</span>
+    <span class="path">fahad:~/papers</span>
   </div>
-  <div class="tabs"><a class="" href="index.html">~/home</a><a class="on" href="work.html">work</a><a class="" href="education.html">education</a><a class="" href="projects.html">projects</a><a class="" href="papers.html">papers</a><a class="" href="beyond.html">beyond</a><a class="cv" href="Resume_Fahad_Farid_Sep2026.pdf">resume.pdf</a></div>
+  <div class="tabs"><a class="" href="index.html">~/home</a><a class="" href="work.html">work</a><a class="" href="education.html">education</a><a class="" href="projects.html">projects</a><a class="on" href="papers.html">papers</a><a class="" href="beyond.html">beyond</a><a class="cv" href="Resume_Fahad_Farid_Sep2026.pdf">resume.pdf</a></div>
   <main>
 
-    <p class="pr">fahad:~/work$ git log --oneline experience<span class="cur"></span></p>
+    <p class="pr">fahad:~/papers$ cat publications.bib<span class="cur"></span></p>
+    <p class="ld">Work from the DRDO fellowship, on health monitoring and digital twins for
+    combat aircraft systems.</p>
 
     <div class="blk">
-      <div class="hd"><span class="ver">v3.0.0</span><span class="dt">Feb 2025 &mdash; present</span></div>
-      <h2>Analyst, Data Science</h2>
-      <p class="org">American Express &middot; Global Decision Science (Credit &amp; Fraud Risk), Gurugram</p>
-      <ul>
-        <li>Designed, built and deployed the end-to-end spend model for US Consumers,
-            delivering <b class="hl">$1.68M in gross contribution margin</b> through controlled
-            A/B simulations that isolated true incremental lift and reshaped budget allocation.</li>
-        <li>Led the migration of all three marketing models to GCP and BigQuery &mdash; rewriting
-            to new guidelines, reworking variable logic, re-scoring in Airflow-orchestrated,
-            unit-tested Python, UAT and PIV validated. <b class="hl">Runtime fell 54%</b>, 13 hours to 6.</li>
-        <li>Simulated incremental card member value from measured lift, now used by campaign
-            teams to unlock product-specific budgets, and designed a centralised scoring
-            repository that moved performance tracking from semi-annual to monthly &mdash;
-            <b class="hl">30 days saved every six months</b>.</li>
-        <li>Established drift and data quality monitoring across 80+ variables and five
-            marketing models, with biannual performance and interpretability tracking under
-            governance standards.</li>
-        <li>Ran root-cause analysis on a variable shift that breached guideline thresholds,
-            found the segment-level nuance behind it, and presented the justification at the
-            CFR Model Development and Performance Committee.</li>
-        <li>Mentored and onboarded junior analysts onto the model stack, and presented results
-            and limitations to marketing and risk partners.</li>
+      <div class="hd"><span class="ver">SAE 2024-26-0478</span><span class="dt">Jun 2024</span></div>
+      <h2>Deep Learning-Based Digital Twining Models for Inter System Behavior and Health Assessment of Combat Aircraft Systems</h2>
+      <p class="org">Agrawal, A., <b class="hl">Farid, F.</b>, Prabhu, A., Sudhakar, V., Vyas, N. &middot; SAE Technical Paper &middot; AeroCON 2024, Bangalore</p>
+      <ul class="dash">
+        <li>Neural networks built per aircraft system from onboard sensor data, with feature
+            selection driven by domain knowledge and correlation analysis.</li>
+        <li>Individual system outputs combined into an overall health assessment, enabling
+            fault isolation at system level from subtle deviations in behaviour.</li>
+        <li>Groundwork for condition-based maintenance: real-time monitoring, anomaly
+            detection and root cause analysis.</li>
       </ul>
-      <div class="tg"><span>Python</span><span>BigQuery</span><span>GCP</span><span>Airflow</span><span>PySpark</span><span>A/B simulation</span><span>Drift monitoring</span><span>Model governance</span></div>
-    </div>
-
-    <div class="blk">
-      <div class="hd"><span class="ver">v2.0.0</span><span class="dt">Jul 2024 &mdash; Feb 2025</span></div>
-      <h2>Senior Manager, Strategy and Innovation (AI/ML)</h2>
-      <p class="org">ICICI Lombard General Insurance &middot; Headquarters, Mumbai</p>
-      <ul>
-        <li>Built an LLM-backed question-answering assistant over internal policy
-            documentation, cutting lookup time for <b class="hl">400+ underwriters</b>.</li>
-        <li>Narrowed 92 UK pincodes to six high-potential ones for business expansion by
-            combining internal portfolio data with external risk reports.</li>
-        <li>Built QGIS landslide risk dashboards tiering 2,000+ policies into five levels, and
-            mapped exposure concentration across 13 Maharashtra pincodes from 8,700+ clients.</li>
-      </ul>
-      <div class="tg"><span>LLM APIs</span><span>RAG</span><span>QGIS</span><span>Geospatial risk</span><span>Portfolio analytics</span></div>
-    </div>
-
-    <div class="blk">
-      <div class="hd"><span class="ver">v1.0.0</span><span class="dt">Jul 2023 &mdash; Jun 2024</span></div>
-      <h2>Junior Research Fellow</h2>
-      <p class="org">Aeronautical Development Agency, DRDO, Bangalore &middot; M.Tech thesis under Prof. N. S. Vyas, IIT Kanpur</p>
-      <ul>
-        <li>Led digital twin development for integrated vehicle health management of combat
-            aircraft, using flight data from <b class="hl">180+ sorties across 20+ airframes</b>.</li>
-        <li>Built deep learning models for seven onboard systems &mdash; flight control
-            (R&sup2; 0.97), brake management (0.93) and power supply (0.91) &mdash; clearing 95%
-            fault validation on held-out data.</li>
-        <li>Enabled real-time condition-based maintenance. Presented at MadeAI 2024 in Porto,
-            and won Best Paper (Innovation) at SAE AeroCON, India.</li>
-      </ul>
-      <div class="tg"><span>TensorFlow</span><span>Time series</span><span>Digital twin</span><span>Anomaly detection</span><span>Sensor data</span></div>
+      <div class="tg"><span>Digital twin</span><span>Neural networks</span><span>Fault detection</span><span>Military aircraft</span><span>Sensor data</span></div>
       <a class="pub" href="https://doi.org/10.4271/2024-26-0478" target="_blank" rel="noopener">
-        <span class="t">Deep Learning-Based Digital Twining Models for Inter System Behavior and Health Assessment of Combat Aircraft Systems</span>
-        <span class="a">Agrawal, A., <b class="hl">Farid, F.</b>, Prabhu, A., Sudhakar, V., Vyas, N. &mdash; SAE Technical Paper 2024-26-0478, AeroCON 2024, Bangalore</span>
+        <span class="t">Read the paper on SAE Mobilus</span>
         <span class="doi">doi.org/10.4271/2024-26-0478 &nearr;</span>
       </a>
     </div>
 
+    <div class="blk">
+      <div class="hd"><span class="ver">presented</span><span class="dt">2024</span></div>
+      <h2>MadeAI 2024, Porto</h2>
+      <p class="org">Conference presentation on the same digital twin work</p>
+    </div>
+
+    <p class="pr sp">$ open scholar</p>
+    <a class="pub" href="https://scholar.google.com/citations?user=erO-SNkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+      <span class="t">Google Scholar profile</span>
+      <span class="a">Full publication list and citations</span>
+      <span class="doi">scholar.google.com &nearr;</span>
+    </a>
 
   </main>
   <footer>
